@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#101408"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#sky)"/>
+  <rect x="80" y="220" width="70" height="200" fill="#1a1a1a"/>
+  <rect x="170" y="160" width="90" height="260" fill="#151515"/>
+  <rect x="280" y="200" width="60" height="220" fill="#1c1c1c"/>
+  <rect x="360" y="120" width="110" height="300" fill="#121212"/>
+  <rect x="490" y="180" width="80" height="240" fill="#191919"/>
+  <rect x="590" y="90" width="130" height="330" fill="#101010"/>
+  <rect x="740" y="150" width="75" height="270" fill="#171717"/>
+  <rect x="835" y="210" width="95" height="210" fill="#141414"/>
+  <rect x="950" y="130" width="120" height="290" fill="#0f0f0f"/>
+  <rect x="360" y="140" width="18" height="18" fill="#C8FF00" opacity="0.9"/>
+  <rect x="620" y="110" width="14" height="14" fill="#C8FF00" opacity="0.7"/>
+  <rect x="980" y="150" width="16" height="16" fill="#C8FF00" opacity="0.8"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#C8FF00" stroke-opacity="0.25"/>
+  <text x="60" y="60" fill="#C8FF00" font-family="Arial, sans-serif" font-size="28" letter-spacing="6">JOBURG SKYLINE</text>
+</svg>

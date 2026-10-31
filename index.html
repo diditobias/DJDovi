@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DJDovi — young, energetic DJ based in Johannesburg, South Africa. Book high-energy sets for clubs, parties, weddings, and events."
+    />
+    <title>DJDovi | Johannesburg DJ Booking</title>
+  </head>
+  <body>
+    <!-- Netlify Forms: static form for build-time detection (React SPA) -->
+    <form name="booking" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="eventDate" />
+      <input type="text" name="eventType" />
+      <input type="text" name="eventLocation" />
+      <input type="text" name="eventTime" />
+      <input type="text" name="budget" />
+      <textarea name="additionalInfo"></textarea>
+    </form>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

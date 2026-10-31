@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="55%" stop-color="#12180a"/>
+      <stop offset="100%" stop-color="#1a2208"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#C8FF00" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#C8FF00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <rect x="180" y="520" width="840" height="28" rx="4" fill="#1f1f1f"/>
+  <circle cx="360" cy="430" r="90" stroke="#C8FF00" stroke-width="8" fill="#101010"/>
+  <circle cx="840" cy="430" r="90" stroke="#C8FF00" stroke-width="8" fill="#101010"/>
+  <circle cx="360" cy="430" r="18" fill="#C8FF00"/>
+  <circle cx="840" cy="430" r="18" fill="#C8FF00"/>
+  <rect x="520" y="390" width="160" height="90" rx="6" fill="#151515" stroke="#C8FF00" stroke-opacity="0.4"/>
+  <text x="600" y="780" text-anchor="middle" fill="#C8FF00" font-family="Arial, sans-serif" font-size="36" letter-spacing="8">DJDOVI  SET 01</text>
+</svg>
