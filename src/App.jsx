@@ -1,28 +1,25 @@
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import WhatsAppFloat from './components/WhatsAppFloat'
 import Hero from './sections/Hero'
 import About from './sections/About'
-import Music from './sections/Music'
+import Setup from './sections/Setup'
 import Gallery from './sections/Gallery'
-import Events from './sections/Events'
 import Booking from './sections/Booking'
-import Contact from './sections/Contact'
 
 export default function App() {
   return (
     <>
-      <div className="noise-overlay" aria-hidden />
       <Navbar />
       <main>
         <Hero />
         <About />
-        <Music />
+        <Setup />
         <Gallery />
-        <Events />
         <Booking />
-        <Contact />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   )
 }

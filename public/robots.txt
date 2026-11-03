@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://djdovi.co.za/sitemap.xml

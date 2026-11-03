@@ -1,31 +1,25 @@
 /**
  * Site configuration.
- * Set VITE_WHATSAPP_NUMBER in .env (digits only, country code included, no + or spaces).
- * Example South Africa: 27821234567
- * Do not commit real secrets; .env is gitignored.
+ * Override with VITE_* env vars when needed. Defaults match the live DJ Dovi site.
  */
 export const siteConfig = {
-  name: 'DJDovi',
-  fullName: 'DJ Dovi',
-  tagline: 'Johannesburg nights. High-energy sets. Unforgettable rooms.',
-  location: 'Johannesburg, South Africa',
-  whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER?.replace(/\D/g, '') || '',
-  contactEmail: import.meta.env.VITE_CONTACT_EMAIL || '',
-  social: {
-    instagram: import.meta.env.VITE_INSTAGRAM_URL || '',
-    soundcloud: import.meta.env.VITE_SOUNDCLOUD_URL || '',
-    tiktok: import.meta.env.VITE_TIKTOK_URL || '',
+  name: 'DJ DOVI',
+  shortName: 'DJ Dovi',
+  tagline: 'MUSIC • ENERGY • MEMORIES',
+  about:
+    'DJ Dovi is a young DJ based in Johannesburg, South Africa, who loves bringing people together through music. From energetic sets to unforgettable moments, the goal is simple — play great music, create an atmosphere, and make every event one to remember.',
+  pricing: {
+    label: 'PRICING GUIDE',
+    line: 'R850 setup & takedown + R1,000 per hour',
+    note: 'Your final quote will be confirmed based on your event requirements.',
   },
-  eventTypes: [
-    'Club Night',
-    'Private Party',
-    'Wedding',
-    'Corporate Event',
-    'Festival',
-    'Birthday',
-    'Launch Party',
-    'Other',
-  ],
+  whatsappNumber: (import.meta.env.VITE_WHATSAPP_NUMBER || '27724180855').replace(/\D/g, ''),
+  contactEmail: import.meta.env.VITE_CONTACT_EMAIL || 'dovitobias@gmail.com',
+  phoneDisplay: '+27 72 418 0855',
+  phoneTel: '+27724180855',
+  logoNav: '/logo-nav.png',
+  heroImage: '/images/photo2.jpg',
+  setupImage: '/images/setup-main.png',
 }
 
 export function isWhatsAppConfigured() {

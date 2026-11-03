@@ -1,0 +1,2 @@
+# Intentionally empty of SPA catch-all rules.
+# /sitemap.xml and /robots.txt must be served as static files from `dist`.

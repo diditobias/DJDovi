@@ -5,7 +5,27 @@
 [build.environment]
   NODE_VERSION = "22"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# No /* → index.html rewrite. This site is a single page with #section anchors,
+# so a catch-all SPA rewrite only causes /sitemap.xml and /robots.txt to return HTML
+# when those files are missing or mis-ordered. Static files in `dist` are served as-is.
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=UTF-8"
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=UTF-8"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    X-Robots-Tag = "index, follow"

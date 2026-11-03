@@ -1,97 +1,58 @@
-export const mixes = [
+export const setupItems = [
   {
-    id: 'joburg-after-dark',
-    title: 'Joburg After Dark',
-    genre: 'Amapiano / Afro House',
-    duration: '62 min',
-    vibe: 'Peak-hour club energy',
+    title: 'DJ CONTROLLER',
+    body: 'Pioneer DDJ-FLX10 controller for smooth mixing and reliable performance.',
   },
   {
-    id: 'sandton-sunset',
-    title: 'Sandton Sunset',
-    genre: 'Afrobeats / Dancehall',
-    duration: '48 min',
-    vibe: 'Warm-up into main room',
+    title: 'MUSIC',
+    body: 'A wide range of music for any event, matched to your crowd and vibe.',
   },
   {
-    id: 'maboneng-pulse',
-    title: 'Maboneng Pulse',
-    genre: 'Tech House / Electro',
-    duration: '55 min',
-    vibe: 'Warehouse pressure',
+    title: 'SOUND & LIGHTING',
+    body: 'Quality sound with a simple lighting setup included, with extra lighting available on request.',
   },
   {
-    id: 'rosebank-riddims',
-    title: 'Rosebank Riddims',
-    genre: 'Hip-Hop / R&B',
-    duration: '40 min',
-    vibe: 'Lounge into late night',
+    title: 'DJ BOOTH',
+    body: 'A clean black booth that keeps the setup looking neat and professional.',
   },
 ]
 
-export const events = [
-  {
-    id: '1',
-    date: '2026-11-14',
-    title: 'Neon Room Sessions',
-    venue: 'Private Club — Sandton',
-    city: 'Johannesburg',
-    status: 'Tickets soon',
-  },
-  {
-    id: '2',
-    date: '2026-11-28',
-    title: 'Skyline Fridays',
-    venue: 'Rooftop Series',
-    city: 'Johannesburg',
-    status: 'Booking open',
-  },
-  {
-    id: '3',
-    date: '2026-12-12',
-    title: 'Warehouse Heat',
-    venue: 'Industrial East Rand',
-    city: 'Johannesburg',
-    status: 'Headlining',
-  },
-]
-
-/** Replace files in /public/images/gallery and update this list. */
+/** Replace files in /public/images and update this list. */
 export const galleryImages = [
   {
     id: 'g1',
-    src: '/images/gallery/set-01.svg',
-    alt: 'DJDovi behind the decks under lime stage light',
-    span: 'md:col-span-2 md:row-span-2',
+    src: '/images/gallery2.png',
+    alt: "Close-up of DJ Dovi's Pioneer controller with colorful performance pads",
+    caption: 'DJ controller close-up',
   },
   {
     id: 'g2',
-    src: '/images/gallery/set-02.svg',
-    alt: 'Crowd energy on a Johannesburg dance floor',
-    span: '',
+    src: '/images/gallery1.jpg',
+    alt: 'DJ Dovi performing behind the booth under blue stage lighting',
+    caption: 'DJ Dovi behind the booth',
   },
   {
     id: 'g3',
-    src: '/images/gallery/set-03.svg',
-    alt: 'Close-up mixer and headphones',
-    span: '',
+    src: '/images/photo3.jpg',
+    alt: "Close-up of DJ Dovi's controller and mixer during a set",
+    caption: 'DJ setup',
   },
   {
     id: 'g4',
-    src: '/images/gallery/set-04.svg',
-    alt: 'Night skyline vibe before a set',
-    span: 'md:col-span-2',
+    src: '/images/photo2.jpg',
+    alt: 'DJ Dovi performing under blue lights at a Johannesburg event',
+    caption: 'DJ Dovi performing',
   },
   {
     id: 'g5',
-    src: '/images/gallery/set-05.svg',
-    alt: 'Booth shot with neon accents',
-    span: '',
+    src: '/images/gallery3.png',
+    alt: 'Hands mixing on a Pioneer DJ controller at a DJ Dovi event',
+    caption: 'Hands on the mix',
   },
   {
     id: 'g6',
-    src: '/images/gallery/set-06.svg',
-    alt: 'Hands on the decks mid-transition',
-    span: '',
+    src: '/images/photo4.jpg',
+    alt: 'DJ Dovi performing live with laptop, controller, and event lighting',
+    caption: 'DJ Dovi live',
   },
 ]
